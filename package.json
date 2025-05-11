@@ -1,0 +1,28 @@
+{
+  "name": "manans-first-bot",
+  "version": "2.0.0",
+  "description": "An example WhatsApp webhook server https://developers.facebook.com/docs/whatsapp/sample-app-endpoints",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Manan",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "openai": "^4.87.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
